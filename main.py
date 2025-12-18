@@ -6,9 +6,10 @@ from datetime import datetime
 from bson import ObjectId
 import io
 
-from app.database import connect_db, close_db, get_db, get_fs
-from app.quantum_engine import quantum_encrypt, quantum_decrypt
-from app.models import EncryptedFileResponse
+from database import connect_db, close_db, get_db, get_fs
+from quantum_engine import quantum_encrypt, quantum_decrypt
+from models import EncryptedFileResponse
+
 
 
 # =========================
